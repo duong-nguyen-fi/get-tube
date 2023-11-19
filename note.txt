@@ -1,0 +1,1 @@
+docker run -v ${PWD}/tmp:/home/cloud-user/ -it --rm docker.io/nzuong/get-tube:latest https://www.youtube.com/playlist?list=PL-HTB1Kh0tRq9ivsnbutoZPJ0xuFWLfcd -x --audio-format wav -P /home/cloud-use
